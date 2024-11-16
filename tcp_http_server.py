@@ -2,7 +2,7 @@ import os
 import socket
 import mimetypes  # MIME 타입을 자동으로 인식하기 위한 모듈
 HOST = ''
-PORT = 8080
+PORT = 8888
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.bind((HOST, PORT))
     s.listen(10)

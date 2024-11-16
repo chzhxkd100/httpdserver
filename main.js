@@ -1,1 +1,1 @@
-document.getElementById("jsimage").src = "image.jpg";
+document.getElementById("jsimage").src = "/http/image.jpg";
